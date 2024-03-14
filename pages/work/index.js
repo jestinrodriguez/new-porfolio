@@ -30,7 +30,9 @@ const Work = () => {
                 animate="show"
                 exit="hidden"
                 className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                I've worked in <span className='text-accent'>various locations</span> and on <span className='text-accent'>diverse projects</span> throughout my career.
+                <br/>
+                In my free time, I create cool side-projects to improve my skills!
               </motion.p>
             </div>
             {/* slider */}

@@ -24,8 +24,8 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className='h1'>
-            Transform Ideas <br/> Into {' '}
-            <span className='text-accent'>Digital Reality</span> 
+            I enjoy building <br/> things {' '}
+            <span className='text-accent'>with code .</span> 
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -34,7 +34,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            Hi, I'm <span className='text-accent'>Jestin!</span> I'm a Full-Stack Developer with great passion in creating software. I love building things from scratch and <span className='text-accent'>transforming</span> ideas into <span className='text-accent'>reality.</span>
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
@@ -57,7 +57,7 @@ const Home = () => {
         {/* particles */}
         <ParticlesContainer/>
         {/* avatar img */}
-        <motion.div
+        {/* <motion.div
           variants={fadeIn('down', 0.2)}
           initial='hidden'
           animate='show'
@@ -65,7 +65,7 @@ const Home = () => {
           transition={{duration: 1, ease:'easeInOut'}}
           className='w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]'>
           <Avatar/>
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   )
